@@ -1,5 +1,11 @@
+import { Layout } from '~/components'
+
 const Events = () => {
-  return <h1>Events</h1>
+  return (
+    <Layout title="Music events">
+      <h1>Events</h1>
+    </Layout>
+  )
 }
 
 export default Events

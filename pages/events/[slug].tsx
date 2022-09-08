@@ -1,5 +1,11 @@
+import { Layout } from '~/components'
+
 const EventPage = () => {
-  return <h1>My Event</h1>
+  return (
+    <Layout>
+      <h1>My Event</h1>
+    </Layout>
+  )
 }
 
 export default EventPage
